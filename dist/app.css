@@ -13,7 +13,48 @@ body {
   margin: auto;
 }
 
-main .hero {
+.hero {
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   height: 700px;
+  padding-top: 100px;
+}
+.hero .logo {
+  height: 64px;
+  width: 64px;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 8px 36px;
+}
+
+.btn-white {
+  border: 2px solid #fff;
+}
+
+.btn-blue {
+  border: 2px solid #1473e6;
+  background-color: main_blue;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+p {
+  font-size: 22px;
 }
