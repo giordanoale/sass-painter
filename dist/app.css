@@ -13,6 +13,12 @@ body {
   margin: auto;
 }
 
+.container_small {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
 h1 {
   font-size: 44px;
   font-weight: 700;
@@ -20,7 +26,8 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 h3 {
@@ -29,14 +36,18 @@ h3 {
   color: #fff;
 }
 
-p {
+span {
   font-size: 22px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .hero {
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   height: 700px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .hero .logo {
   height: 64px;
@@ -70,4 +81,37 @@ p {
 }
 .btn-blue:hover {
   background-color: #0d66d0;
+}
+
+.features {
+  margin-top: 40px;
+}
+.features .container_small > * {
+  margin-bottom: 15px;
+}
+.features .img_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.features .img_text.reverse {
+  flex-direction: row-reverse;
+}
+.features .img_text img {
+  width: 600px;
+}
+.features .img_text .text {
+  margin: 0 30px;
+}
+.features .img_text .text a {
+  color: #1473e6;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.features .img_text .text a:hover {
+  color: #0d66d0;
+  text-decoration: underline;
 }

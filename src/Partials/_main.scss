@@ -1,7 +1,7 @@
 .hero {
     background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
     height: 700px;
-    padding-top: 100px;
+    padding-top: 200px;
     .logo {
         height: 64px;
         width: 64px;
@@ -37,5 +37,42 @@
     background-color: $main_blue;
     &:hover {
         background-color: $dark_blue;
+    }
+}
+
+.features {
+    margin-top: 40px;
+    .container_small {
+        & > * {
+            margin-bottom: 15px;
+        }
+    }
+    .img_text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+
+        &.reverse {
+            flex-direction: row-reverse;
+        }
+        img {
+            width: 600px;
+        }
+
+        .text {
+            margin: 0 30px;
+            a {
+                color: $main_blue;
+                text-decoration: none;
+                margin-top: 20px;
+                font-size: $small_font;
+                &:hover {
+                    color: $dark_blue;
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 }
