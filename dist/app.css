@@ -13,32 +13,6 @@ body {
   margin: auto;
 }
 
-.hero {
-  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
-  height: 700px;
-  padding-top: 100px;
-}
-.hero .logo {
-  height: 64px;
-  width: 64px;
-}
-
-.btn {
-  color: #fff;
-  border-radius: 50px;
-  display: inline-block;
-  padding: 8px 36px;
-}
-
-.btn-white {
-  border: 2px solid #fff;
-}
-
-.btn-blue {
-  border: 2px solid #1473e6;
-  background-color: main_blue;
-}
-
 h1 {
   font-size: 44px;
   font-weight: 700;
@@ -57,4 +31,43 @@ h3 {
 
 p {
   font-size: 22px;
+}
+
+.hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  height: 700px;
+  padding-top: 100px;
+}
+.hero .logo {
+  height: 64px;
+  width: 64px;
+}
+.hero .container > * {
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 8px 36px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.btn-white {
+  border: 2px solid #fff;
+}
+.btn-white:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-blue {
+  border: 2px solid #1473e6;
+  background-color: #1473e6;
+}
+.btn-blue:hover {
+  background-color: #0d66d0;
 }

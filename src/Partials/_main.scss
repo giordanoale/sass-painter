@@ -6,6 +6,11 @@
         height: 64px;
         width: 64px;
     }
+    .container {
+        & > * {
+            margin-bottom: 15px;
+        }
+    }
     
 }
 
@@ -14,13 +19,23 @@
     border-radius: 50px;
     display: inline-block;
     padding: 8px 36px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
 .btn-white {
     border: 2px solid #fff;
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
 }
 
 .btn-blue {
-    border: 2px solid #1473e6;
+    border: 2px solid $main_blue;
     background-color: $main_blue;
+    &:hover {
+        background-color: $dark_blue;
+    }
 }
